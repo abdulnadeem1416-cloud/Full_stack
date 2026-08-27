@@ -1,0 +1,35 @@
+<html>
+<head>
+  <style>
+    .container {
+      display: grid;
+      grid-template-columns: 2fr 1fr; /* main + sidebar */
+      gap: 20px;
+    }
+    .main {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      background: #e0f7fa;
+      padding: 10px;
+    }
+    .sidebar {
+      background: #ffe0b2;
+      padding: 10px;
+    }
+    .box {
+      background: #c5e1a5;
+      padding: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="main">
+      <div class="box">Main Content</div>
+      <div class="box">Article</div>
+    </div>
+    <div class="sidebar">Sidebar</div>
+  </div>
+</body>
+</html>
